@@ -14,7 +14,6 @@ public class Greeter {
   public Greeter() {
 
   }
-  
   /**
    * <p>greet.</p>
    *
