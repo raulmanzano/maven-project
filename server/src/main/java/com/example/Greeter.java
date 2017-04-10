@@ -2,6 +2,9 @@ package com.example;
 
 /**
  * This is a class.
+ *
+ * @author manzano
+ * @version $Id: $
  */
 public class Greeter {
 
@@ -11,9 +14,14 @@ public class Greeter {
   public Greeter() {
 
   }
-
-  //TODO: Add javadoc comment
-  public String greet(String someone) {
+  
+  /**
+   * <p>greet.</p>
+   *
+   * @param someone a {@link java.lang.String} object.
+   * @return a {@link java.lang.String} object.
+   */
+  public final String greet(final String someone) {
     return String.format("Hello, %s!", someone);
   }
 }
